@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CD4BE50B2AD59E0C0012B323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BE50A2AD59E0C0012B323 /* AppDelegate.swift */; };
 		CD4BE50D2AD59E0C0012B323 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BE50C2AD59E0C0012B323 /* SceneDelegate.swift */; };
-		CD4BE50F2AD59E0C0012B323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BE50E2AD59E0C0012B323 /* ViewController.swift */; };
 		CD4BE5122AD59E0C0012B323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4BE5102AD59E0C0012B323 /* Main.storyboard */; };
 		CD4BE5142AD59E0D0012B323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4BE5132AD59E0D0012B323 /* Assets.xcassets */; };
 		CD4BE5172AD59E0D0012B323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4BE5152AD59E0D0012B323 /* LaunchScreen.storyboard */; };
+		CD4BE51F2AD59E360012B323 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BE51E2AD59E360012B323 /* LoginViewController.swift */; };
+		CD4BE5212AD59E4D0012B323 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BE5202AD59E4D0012B323 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD4BE5072AD59E0C0012B323 /* LoginAppFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAppFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4BE50A2AD59E0C0012B323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD4BE50C2AD59E0C0012B323 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD4BE50E2AD59E0C0012B323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD4BE5112AD59E0C0012B323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD4BE5132AD59E0D0012B323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD4BE5162AD59E0D0012B323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD4BE5182AD59E0D0012B323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4BE51E2AD59E360012B323 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CD4BE5202AD59E4D0012B323 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				CD4BE50A2AD59E0C0012B323 /* AppDelegate.swift */,
 				CD4BE50C2AD59E0C0012B323 /* SceneDelegate.swift */,
-				CD4BE50E2AD59E0C0012B323 /* ViewController.swift */,
+				CD4BE51E2AD59E360012B323 /* LoginViewController.swift */,
+				CD4BE5202AD59E4D0012B323 /* WelcomeViewController.swift */,
 				CD4BE5102AD59E0C0012B323 /* Main.storyboard */,
 				CD4BE5132AD59E0D0012B323 /* Assets.xcassets */,
 				CD4BE5152AD59E0D0012B323 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4BE50F2AD59E0C0012B323 /* ViewController.swift in Sources */,
+				CD4BE51F2AD59E360012B323 /* LoginViewController.swift in Sources */,
+				CD4BE5212AD59E4D0012B323 /* WelcomeViewController.swift in Sources */,
 				CD4BE50B2AD59E0C0012B323 /* AppDelegate.swift in Sources */,
 				CD4BE50D2AD59E0C0012B323 /* SceneDelegate.swift in Sources */,
 			);
@@ -306,9 +310,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.LoginAppFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -333,9 +340,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.LoginAppFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
