@@ -16,7 +16,7 @@ final class LoginViewController: UIViewController {
         }
     }
     
-    private let user = "User_23"
+    private let user = "User"
     private let password = "pass"
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

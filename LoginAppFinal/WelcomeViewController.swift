@@ -34,6 +34,8 @@ final class WelcomeViewController: UIViewController {
 
 }
 
+
+
 // MARK: - Set background color
 extension UIView {
     func addVerticalGradientLayer(topColor: UIColor, bottomColor: UIColor) {
@@ -46,3 +48,4 @@ extension UIView {
         layer.insertSublayer(gradient, at: 0)
     }
 }
+
